@@ -1,0 +1,803 @@
+{
+    "____GENEL_ASISTAN_KOMUTLARI____": {
+        "NOT": "Bu bölüm sadece ayraçtır, bir komut değildir."
+    },
+    "merhaba": {
+        "action": "speak",
+        "response": "Merhaba! Size nasıl yardımcı olabilirim?"
+    },
+    "selam": {
+        "action": "speak",
+        "trigger_phrase": "selam",
+        "response": "Selam! Komutlarınızı bekliyorum."
+    },
+    "nasılsın": {
+        "action": "speak",
+        "response": "Harika çalışıyorum! Sizin için ne yapabilirim?"
+    },
+    "ne haber": {
+        "action": "speak",
+        "trigger_phrase": "ne haber",
+        "response": "İyilik sağlık, komutlarınızı bekliyorum."
+    },
+    "teşekkür ederim": {
+        "action": "speak",
+        "trigger_phrase": "teşekkür ederim",
+        "response": "Rica ederim! Her zaman yardımcı olmaktan mutluluk duyarım."
+    },
+    "teşekkürler": {
+        "action": "speak",
+        "trigger_phrase": "teşekkürler",
+        "response": "Rica ederim!"
+    },
+    "sağ ol": {
+        "action": "speak",
+        "trigger_phrase": "sağ ol",
+        "response": "Ne demek, her zaman."
+    },
+    "günaydın": {
+        "action": "speak",
+        "response": "Günaydın! Umarım harika bir gün geçirirsiniz."
+    },
+    "iyi günler": {
+        "action": "speak",
+        "response": "İyi günler dilerim!"
+    },
+    "iyi akşamlar": {
+        "action": "speak",
+        "response": "İyi akşamlar!"
+    },
+    "iyi geceler": {
+        "action": "speak",
+        "response": "İyi geceler, tatlı rüyalar!"
+    },
+    "adın ne": {
+        "action": "speak",
+        "trigger_phrase": "adın ne",
+        "response": "Ben sizin sesli asistanınızım."
+    },
+    "kimsin sen": {
+        "action": "speak",
+        "trigger_phrase": "kimsin sen",
+        "response": "Komutlarınızı yerine getirmek için buradayım."
+    },
+    "kapan": {
+        "action": "speak",
+        "trigger_phrase": "kapan",
+        "response": "Görüşürüz! Asistan kapatılıyor.",
+        "exit": true
+    },
+    "çıkış yap": {
+        "action": "speak",
+        "trigger_phrase": "çıkış yap",
+        "response": "Elveda! Kendinize iyi bakın.",
+        "exit": true
+    },
+    "asistanı kapat": {
+        "action": "speak",
+        "trigger_phrase": "asistanı kapat",
+        "response": "Tamamdır, kapatıyorum.",
+        "exit": true
+    },
+    "güle güle": {
+        "action": "speak",
+        "trigger_phrase": "güle güle",
+        "response": "Hoşçakalın!",
+        "exit": true
+    },
+
+    "____UYGULAMA_ACMA_KOMUTLARI____": {
+        "NOT": "Bu bölüm sadece ayraçtır, bir komut değildir."
+    },
+    "google chrome aç": {
+        "action": "run",
+        "command": "start chrome",
+        "trigger_phrase": "google chrome aç",
+        "response": "Google Chrome tarayıcısını açıyorum."
+    },
+    "chrome aç": {
+        "action": "run",
+        "command": "start chrome",
+        "trigger_phrase": "chrome aç",
+        "response": "Chrome açılıyor."
+    },
+    "tarayıcıyı aç": {
+        "action": "run",
+        "command": "start chrome",
+        "trigger_phrase": "tarayıcıyı aç",
+        "response": "Varsayılan tarayıcınızı açıyorum."
+    },
+    "firefox aç": {
+        "action": "run",
+        "command": "start firefox",
+        "trigger_phrase": "firefox aç",
+        "response": "Firefox tarayıcısını açıyorum."
+    },
+    "mozilla firefox aç": {
+        "action": "run",
+        "command": "start firefox",
+        "trigger_phrase": "mozilla firefox aç",
+        "response": "Firefox açılıyor."
+    },
+    "edge aç": {
+        "action": "run",
+        "command": "start msedge",
+        "trigger_phrase": "edge aç",
+        "response": "Microsoft Edge tarayıcısını açıyorum."
+    },
+    "microsoft edge aç": {
+        "action": "run",
+        "command": "start msedge",
+        "trigger_phrase": "microsoft edge aç",
+        "response": "Edge açılıyor."
+    },
+    "opera aç": {
+        "action": "run",
+        "command": "start opera",
+        "trigger_phrase": "opera aç",
+        "response": "Opera tarayıcısını açıyorum."
+    },
+    "not defteri aç": {
+        "action": "run",
+        "command": "notepad",
+        "trigger_phrase": "not defteri aç",
+        "response": "Not Defteri açılıyor."
+    },
+    "notepad aç": {
+        "action": "run",
+        "command": "notepad",
+        "trigger_phrase": "notepad aç",
+        "response": "Notepad açılıyor."
+    },
+    "metin editörü aç": {
+        "action": "run",
+        "command": "notepad",
+        "trigger_phrase": "metin editörü aç",
+        "response": "Not Defteri açılıyor."
+    },
+    "hesap makinesi aç": {
+        "action": "run",
+        "command": "calc",
+        "trigger_phrase": "hesap makinesi aç",
+        "response": "Hesap Makinesi açılıyor."
+    },
+    "paint aç": {
+        "action": "run",
+        "command": "mspaint",
+        "trigger_phrase": "paint aç",
+        "response": "Paint programını açıyorum."
+    },
+    "çizim programı aç": {
+        "action": "run",
+        "command": "mspaint",
+        "trigger_phrase": "çizim programı aç",
+        "response": "Paint açılıyor."
+    },
+    "word aç": {
+        "action": "run",
+        "command": "start winword",
+        "trigger_phrase": "word aç",
+        "response": "Microsoft Word açılıyor."
+    },
+    "kelime işlemci aç": {
+        "action": "run",
+        "command": "start winword",
+        "trigger_phrase": "kelime işlemci aç",
+        "response": "Kelime işlemci programını açıyorum."
+    },
+    "excel aç": {
+        "action": "run",
+        "command": "start excel",
+        "trigger_phrase": "excel aç",
+        "response": "Microsoft Excel açılıyor."
+    },
+    "hesap tablosu aç": {
+        "action": "run",
+        "command": "start excel", 
+        "trigger_phrase": "hesap tablosu aç",
+        "response": "Hesap tablosu programını açıyorum."
+    },
+    "powerpoint aç": {
+        "action": "run",
+        "command": "start powerpnt",
+        "trigger_phrase": "powerpoint aç",
+        "response": "Microsoft PowerPoint açılıyor."
+    },
+    "sunum programı aç": {
+        "action": "run",
+        "command": "start powerpnt", 
+        "trigger_phrase": "sunum programı aç",
+        "response": "Sunum programını açıyorum."
+    },
+    "outlook aç": {
+        "action": "run",
+        "command": "start outlook",
+        "trigger_phrase": "outlook aç",
+        "response": "Outlook açılıyor."
+    },
+    "eposta aç": {
+        "action": "run",
+        "command": "start outlook", 
+        "trigger_phrase": "eposta aç",
+        "response": "E-posta programınızı açıyorum."
+    },
+    "spotify aç": {
+        "action": "run",
+        "command": "start C:/Users/yilma/AppData/Roaming/Spotify/Spotify.exe", 
+        "trigger_phrase": "spotify aç",
+        "response": "Spotify açılıyor."
+    },
+    "spotify aç": {
+        "action": "run",
+        "command": "start C:/Users/yilma/AppData/Roaming/Spotify/Spotify.exe", 
+        "trigger_phrase": "spotify'ı aç",
+        "response": "Spotify açılıyor."
+    },
+    "vlc aç": {
+        "action": "run",
+        "command": "start vlc",
+        "trigger_phrase": "vlc aç",
+        "response": "VLC Media Player açılıyor."
+    },
+    "video oynatıcı aç": {
+        "action": "run",
+        "command": "start vlc", 
+        "trigger_phrase": "video oynatıcı aç",
+        "response": "Video oynatıcı açılıyor."
+    },
+    "discord aç": {
+        "action": "run",
+        "command": "start %LOCALAPPDATA%/Discord/Update.exe --processStart Discord.exe",
+        "trigger_phrase": "discord aç",
+        "response": "Discord açılıyor."
+    },
+    "zoom aç": {
+        "action": "run",
+        "command": "start zoom",
+        "trigger_phrase": "zoom aç",
+        "response": "Zoom açılıyor."
+    },
+    "skype aç": {
+        "action": "run",
+        "command": "start skype",
+        "trigger_phrase": "skype aç",
+        "response": "Skype açılıyor."
+    },
+    "telegram aç": {
+        "action": "run",
+        "command": "start telegram",
+        "trigger_phrase": "telegram aç",
+        "response": "Telegram açılıyor."
+    },
+    "komut istemi aç": {
+        "action": "run",
+        "command": "cmd",
+        "trigger_phrase": "komut istemi aç",
+        "response": "Komut İstemini açıyorum."
+    },
+    "cmd aç": {
+        "action": "run",
+        "command": "cmd",
+        "trigger_phrase": "cmd aç",
+        "response": "Komut İstemini açıyorum."
+    },
+    "konsol aç": {
+        "action": "run",
+        "command": "cmd",
+        "trigger_phrase": "konsol aç",
+        "response": "Konsol açılıyor."
+    },
+    "powershell aç": {
+        "action": "run",
+        "command": "powershell",
+        "trigger_phrase": "powershell aç",
+        "response": "PowerShell açılıyor."
+    },
+    "terminal aç": { 
+        "action": "run",
+        "command": "powershell",
+        "trigger_phrase": "terminal aç",
+        "response": "Terminal açılıyor."
+    },
+    "görev yöneticisi aç": {
+        "action": "run",
+        "command": "taskmgr",
+        "trigger_phrase": "görev yöneticisi aç",
+        "response": "Görev Yöneticisi'ni açıyorum."
+    },
+    "denetim masası aç": {
+        "action": "run",
+        "command": "control panel",
+        "trigger_phrase": "denetim masası aç",
+        "response": "Denetim Masası'nı açıyorum."
+    },
+    "ayarları aç": {
+        "action": "run",
+        "command": "start ms-settings:",
+        "trigger_phrase": "ayarları aç",
+        "response": "Ayarlar uygulamasını açıyorum."
+    },
+    "windows ayarlarını aç": {
+        "action": "run",
+        "command": "start ms-settings:",
+        "trigger_phrase": "windows ayarlarını aç",
+        "response": "Windows Ayarlarını açıyorum."
+    },
+    "disk temizleme aç": {
+        "action": "run",
+        "command": "cleanmgr",
+        "trigger_phrase": "disk temizleme aç",
+        "response": "Disk Temizleme aracını açıyorum."
+    },
+    "kaynak izleyicisi aç": {
+        "action": "run",
+        "command": "resmon",
+        "trigger_phrase": "kaynak izleyicisi aç",
+        "response": "Kaynak İzleyicisi'ni açıyorum."
+    },
+    "sistem bilgisi aç": {
+        "action": "run",
+        "command": "msinfo32",
+        "trigger_phrase": "sistem bilgisi aç",
+        "response": "Sistem Bilgisi'ni açıyorum."
+    },
+    "kayıt defteri düzenleyicisi aç": {
+        "action": "run",
+        "command": "regedit",
+        "trigger_phrase": "kayıt defteri düzenleyicisi aç",
+        "response": "Kayıt Defteri Düzenleyicisi açılıyor. Lütfen dikkatli kullanın."
+    },
+    "regedit aç": {
+        "action": "run",
+        "command": "regedit",
+        "trigger_phrase": "regedit aç",
+        "response": "Regedit açılıyor. Dikkatli olun."
+    },
+    "ekran alıntısı aracı aç": {
+        "action": "run",
+        "command": "snippingtool",
+        "trigger_phrase": "ekran alıntısı aracı aç",
+        "response": "Ekran Alıntısı Aracı'nı açıyorum."
+    },
+    "kesme aracı aç": {
+        "action": "run",
+        "command": "snippingtool",
+        "trigger_phrase": "kesme aracı aç",
+        "response": "Ekran Alıntısı Aracı açılıyor."
+    },
+    "karakter eşlem aç": {
+        "action": "run",
+        "command": "charmap",
+        "trigger_phrase": "karakter eşlem aç",
+        "response": "Karakter Eşlem açılıyor."
+    },
+    "yapışkan notlar aç": {
+        "action": "run",
+        "command": "stikynot",
+        "trigger_phrase": "yapışkan notlar aç",
+        "response": "Yapışkan Notlar açılıyor."
+    },
+    "ses kaydedici aç": {
+        "action": "run",
+        "command": "soundrecorder",
+        "trigger_phrase": "ses kaydedici aç",
+        "response": "Ses Kaydedici açılıyor."
+    },
+
+    "____WEB_ISLEMLERI____": {
+        "NOT": "Bu bölüm sadece ayraçtır, bir komut değildir."
+    },
+    "google aç": {
+        "action": "run",
+        "command": "start https://www.google.com",
+        "trigger_phrase": "google aç",
+        "response": "Google'ı açıyorum."
+    },
+    "google ana sayfasını aç": {
+        "action": "run",
+        "command": "start https://www.google.com",
+        "trigger_phrase": "google ana sayfasını aç",
+        "response": "Google ana sayfasını açıyorum."
+    },
+    "youtube aç": {
+        "action": "run",
+        "command": "start https://www.youtube.com",
+        "trigger_phrase": "youtube aç",
+        "response": "YouTube'u açıyorum."
+    },
+     "youtube ana sayfasını göster": {
+        "action": "run",
+        "command": "start https://www.youtube.com",
+        "trigger_phrase": "youtube ana sayfasını göster",
+        "response": "YouTube ana sayfasını açıyorum."
+    },
+    "facebook aç": {
+        "action": "run",
+        "command": "start https://www.facebook.com",
+        "trigger_phrase": "facebook aç",
+        "response": "Facebook açılıyor."
+    },
+    "twitter aç": {
+        "action": "run",
+        "command": "start https://www.twitter.com",
+        "trigger_phrase": "twitter aç",
+        "response": "Twitter (X) açılıyor."
+    },
+    "x aç": {
+        "action": "run",
+        "command": "start https://www.x.com",
+        "trigger_phrase": "x aç",
+        "response": "X (Twitter) açılıyor."
+    },
+    "instagram aç": {
+        "action": "run",
+        "command": "start https://www.instagram.com",
+        "trigger_phrase": "instagram aç",
+        "response": "Instagram açılıyor."
+    },
+    "linkedin aç": {
+        "action": "run",
+        "command": "start https://www.linkedin.com",
+        "trigger_phrase": "linkedin aç",
+        "response": "LinkedIn açılıyor."
+    },
+    "github aç": {
+        "action": "run",
+        "command": "start https://www.github.com",
+        "trigger_phrase": "github aç",
+        "response": "GitHub açılıyor."
+    },
+    "e-devlet aç": {
+        "action": "run",
+        "command": "start https://www.turkiye.gov.tr",
+        "trigger_phrase": "e-devlet aç",
+        "response": "E-Devlet Kapısı açılıyor."
+    },
+    "haberleri aç": {
+        "action": "run",
+        "command": "start https://www.ensonhaber.com",
+        "trigger_phrase": "haberleri aç",
+        "response": "Haber sitesini açıyorum."
+    },
+    "hava durumu sitesini aç": {
+        "action": "run",
+        "command": "start https://www.mgm.gov.tr",
+        "trigger_phrase": "hava durumu sitesini aç",
+        "response": "Hava durumu sitesini açıyorum."
+    },
+    "google'da ara": {
+        "action": "run",
+        "command": "start chrome \"https://www.google.com/search?q={query}\"",
+        "trigger_phrase": "google'da ara",
+        "response": "Google'da {query} için arama yapıyorum."
+    },
+    "google ile araştır": {
+        "action": "run",
+        "command": "start chrome \"https://www.google.com/search?q={query}\"",
+        "trigger_phrase": "google ile araştır",
+        "response": "Google'da {query} konusunu araştırıyorum."
+    },
+    "youtube'da ara": {
+        "action": "run",
+        "command": "start chrome \"https://www.youtube.com/results?search_query={query}\"",
+        "trigger_phrase": "youtube'da ara",
+        "response": "YouTube'da {query} için arama yapıyorum."
+    },
+    "youtube'da video bul": {
+        "action": "run",
+        "command": "start chrome \"https://www.youtube.com/results?search_query={query}\"",
+        "trigger_phrase": "youtube'da video bul",
+        "response": "YouTube'da {query} videosunu arıyorum."
+    },
+    "wikipedia'da ara": {
+        "action": "run",
+        "command": "start chrome \"https://tr.wikipedia.org/w/index.php?search={query}\"",
+        "trigger_phrase": "wikipedia'da ara",
+        "response": "Wikipedia'da {query} konusuna bakıyorum."
+    },
+    "vikipedi'de bak": {
+        "action": "run",
+        "command": "start chrome \"https://tr.wikipedia.org/w/index.php?search={query}\"",
+        "trigger_phrase": "vikipedi'de bak",
+        "response": "Vikipedi'de {query} konusunu araştırıyorum."
+    },
+    "haritalarda ara": {
+        "action": "run",
+        "command": "start chrome \"https://www.google.com/maps/search/{query}\"",
+        "trigger_phrase": "haritalarda ara",
+        "response": "Haritalarda {query} için arama yapılıyor."
+    },
+    "konum bul": {
+        "action": "run",
+        "command": "start chrome \"https://www.google.com/maps/search/{query}\"",
+        "trigger_phrase": "konum bul",
+        "response": "{query} konumunu haritada arıyorum."
+    },
+
+    "____SISTEM_KONTROL_KOMUTLARI____": {
+        "NOT": "Bu bölüm sadece ayraçtır, bir komut değildir."
+    },
+    "bilgisayarı kapat": {
+        "action": "run",
+        "command": "shutdown /s /f /t 0",
+        "trigger_phrase": "bilgisayarı kapat",
+        "response": "Bilgisayar hemen kapatılıyor."
+    },
+    "sistemi kapat": {
+        "action": "run",
+        "command": "shutdown /s /f /t 0",
+        "trigger_phrase": "sistemi kapat",
+        "response": "Sistem kapatılıyor."
+    },
+    "bilgisayarı yeniden başlat": {
+        "action": "run",
+        "command": "shutdown /r /f /t 0",
+        "trigger_phrase": "bilgisayarı yeniden başlat",
+        "response": "Bilgisayar hemen yeniden başlatılıyor."
+    },
+    "sistemi yeniden başlat": {
+        "action": "run",
+        "command": "shutdown /r /f /t 0",
+        "trigger_phrase": "sistemi yeniden başlat",
+        "response": "Sistem yeniden başlatılıyor."
+    },
+    "oturumu kapat": {
+        "action": "run",
+        "command": "shutdown /l",
+        "trigger_phrase": "oturumu kapat",
+        "response": "Oturum kapatılıyor."
+    },
+    "kullanıcı değiştir": {
+        "action": "run",
+        "command": "shutdown /l",
+        "trigger_phrase": "kullanıcı değiştir",
+        "response": "Oturum kapatılıyor, kullanıcı değiştirebilirsiniz."
+    },
+    "bilgisayarı kilitle": {
+        "action": "run",
+        "command": "rundll32.exe user32.dll,LockWorkStation",
+        "trigger_phrase": "bilgisayarı kilitle",
+        "response": "Bilgisayar kilitleniyor."
+    },
+    "ekranı kilitle": {
+        "action": "run",
+        "command": "rundll32.exe user32.dll,LockWorkStation",
+        "trigger_phrase": "ekranı kilitle",
+        "response": "Ekran kilitleniyor."
+    },
+    "bilgisayarı uyku moduna al": {
+        "action": "run",
+        "command": "rundll32.exe powrprof.dll,SetSuspendState 0,1,0",
+        "trigger_phrase": "bilgisayarı uyku moduna al",
+        "response": "Bilgisayar uyku moduna alınıyor."
+    },
+    "uykuya geçir": {
+        "action": "run",
+        "command": "rundll32.exe powrprof.dll,SetSuspendState 0,1,0",
+        "trigger_phrase": "uykuya geçir",
+        "response": "Bilgisayar uyku moduna geçiriliyor."
+    },
+    "sesi yükselt": {
+        "action": "press",
+        "key": "volumeup",
+        "response": "Ses yükseltiliyor."
+    },
+    "sesi artır": {
+        "action": "press",
+        "key": "volumeup",
+        "trigger_phrase": "sesi artır",
+        "response": "Ses seviyesi artırılıyor."
+    },
+    "sesi kıs": {
+        "action": "press",
+        "key": "volumedown",
+        "response": "Ses kısılıyor."
+    },
+    "sesi azalt": {
+        "action": "press",
+        "key": "volumedown",
+        "trigger_phrase": "sesi azalt",
+        "response": "Ses seviyesi azaltılıyor."
+    },
+    "sesi kapat": {
+        "action": "press",
+        "key": "volumemute",
+        "response": "Ses kapatılıyor."
+    },
+    "sessize al": {
+        "action": "press",
+        "key": "volumemute",
+        "trigger_phrase": "sessize al",
+        "response": "Sistem sessize alınıyor."
+    },
+    "sesi aç": {
+        "action": "press",
+        "key": "volumemute", 
+        "response": "Ses açılıyor."
+    },
+    "ses_seviyesini_ayarla": {
+        "action": "set_system_volume",
+        "trigger_phrase": "sesi", 
+        "response": "Sistem sesi yüzde {query} olarak ayarlandı."
+    },
+    "ses_seviyesini_yuzde_ile_ayarla": {
+        "action": "set_system_volume",
+        "trigger_phrase": "sesi yüzde", 
+        "response": "Sistem sesi yüzde {query} olarak ayarlandı."
+    },
+    "tam ekran yap": {
+        "action": "press",
+        "key": "f11",
+        "response": "Aktif pencere tam ekran yapılıyor."
+    },
+    "pencereyi kapat": {
+        "action": "hotkey",
+        "keys": ["alt", "f4"],
+        "response": "Aktif pencere kapatılıyor."
+    },
+    "aktif pencereyi kapat": {
+        "action": "hotkey",
+        "keys": ["alt", "f4"],
+        "trigger_phrase": "aktif pencereyi kapat",
+        "response": "Şu anki pencere kapatılıyor."
+    },
+    "masaüstünü göster": {
+        "action": "hotkey",
+        "keys": ["win", "d"],
+        "response": "Masaüstü gösteriliyor."
+    },
+    
+    "____DOSYA_GEZGINI_KOMUTLARI____": {
+        "NOT": "Bu bölüm sadece ayraçtır, bir komut değildir."
+    },
+    "dosya gezgini aç": {
+        "action": "run",
+        "command": "explorer",
+        "trigger_phrase": "dosya gezgini aç",
+        "response": "Dosya Gezgini açılıyor."
+    },
+    "explorer aç": {
+        "action": "run",
+        "command": "explorer",
+        "trigger_phrase": "explorer aç",
+        "response": "Explorer açılıyor."
+    },
+    "belgelerimi aç": {
+        "action": "run",
+        "command": "explorer shell:Personal",
+        "trigger_phrase": "belgelerimi aç",
+        "response": "Belgelerim klasörünü açıyorum."
+    },
+    "belgeler klasörünü aç": {
+        "action": "run",
+        "command": "explorer shell:Personal",
+        "trigger_phrase": "belgeler klasörünü aç",
+        "response": "Belgeler klasörünü açıyorum."
+    },
+    "indirilenleri aç": {
+        "action": "run",
+        "command": "explorer shell:Downloads",
+        "trigger_phrase": "indirilenleri aç",
+        "response": "İndirilenler klasörünü açıyorum."
+    },
+    "indirilenler klasörünü aç": {
+        "action": "run",
+        "command": "explorer shell:Downloads",
+        "trigger_phrase": "indirilenler klasörünü aç",
+        "response": "İndirilenler klasörünü açıyorum."
+    },
+    "masaüstünü aç": {
+        "action": "run",
+        "command": "explorer shell:Desktop",
+        "trigger_phrase": "masaüstünü aç",
+        "response": "Masaüstü klasörünü açıyorum."
+    },
+    "resimlerimi aç": {
+        "action": "run",
+        "command": "explorer shell:MyPictures",
+        "trigger_phrase": "resimlerimi aç",
+        "response": "Resimlerim klasörünü açıyorum."
+    },
+    "resimler klasörünü aç": {
+        "action": "run",
+        "command": "explorer shell:MyPictures",
+        "trigger_phrase": "resimler klasörünü aç",
+        "response": "Resimler klasörünü açıyorum."
+    },
+    "videolarımı aç": {
+        "action": "run",
+        "command": "explorer shell:MyVideos",
+        "trigger_phrase": "videolarımı aç",
+        "response": "Videolarım klasörünü açıyorum."
+    },
+    "videolar klasörünü aç": {
+        "action": "run",
+        "command": "explorer shell:MyVideos",
+        "trigger_phrase": "videolar klasörünü aç",
+        "response": "Videolar klasörünü açıyorum."
+    },
+    "müziklerimi aç": {
+        "action": "run",
+        "command": "explorer shell:MyMusic",
+        "trigger_phrase": "müziklerimi aç",
+        "response": "Müziklerim klasörünü açıyorum."
+    },
+    "müzikler klasörünü aç": {
+        "action": "run",
+        "command": "explorer shell:MyMusic",
+        "trigger_phrase": "müzikler klasörünü aç",
+        "response": "Müzikler klasörünü açıyorum."
+    },
+    "bu bilgisayarı aç": {
+        "action": "run",
+        "command": "explorer ::{20D04FE0-3AEA-1069-A2D8-08002B30309D}",
+        "trigger_phrase": "bu bilgisayarı aç",
+        "response": "Bu Bilgisayar açılıyor."
+    },
+    "bilgisayarım aç": {
+        "action": "run",
+        "command": "explorer ::{20D04FE0-3AEA-1069-A2D8-08002B30309D}",
+        "trigger_phrase": "bilgisayarım aç",
+        "response": "Bu Bilgisayar açılıyor."
+    },
+    "çöp kutusunu aç": {
+        "action": "run",
+        "command": "explorer ::{645FF040-5081-101B-9F08-00AA002F954E}",
+        "trigger_phrase": "çöp kutusunu aç",
+        "response": "Çöp Kutusu açılıyor."
+    },
+    "muzigi_oynat": {
+        "action": "press",
+        "key": "playpause",
+        "trigger_phrase": "müziği oynat",
+        "response": "Müzik oynatılıyor veya devam ettiriliyor."
+    },
+    "muzigi_baslat": {
+        "action": "press",
+        "key": "playpause",
+        "trigger_phrase": "müziği başlat",
+        "response": "Müzik başlatılıyor."
+    },
+    "muzigi_devam_ettir": {
+        "action": "press",
+        "key": "playpause",
+        "trigger_phrase": "müziği devam ettir",
+        "response": "Müzik devam ettiriliyor."
+    },
+    "muzigi_durdur": {
+        "action": "press",
+        "key": "playpause",
+        "trigger_phrase": "müziği durdur",
+        "response": "Müzik durduruluyor."
+    },
+    "muzigi_duraklat": {
+        "action": "press",
+        "key": "playpause",
+        "trigger_phrase": "müziği duraklat",
+        "response": "Müzik duraklatılıyor."
+    },
+    "sonraki_sarki": {
+        "action": "press",
+        "key": "nexttrack",
+        "trigger_phrase": "sonraki şarkı",
+        "response": "Sonraki şarkıya geçiliyor."
+    },
+    "diger_sarkiya_gec": {
+        "action": "press",
+        "key": "nexttrack",
+        "trigger_phrase": "diğer şarkıya geç",
+        "response": "Sıradaki parçaya geçiyorum."
+    },
+    "onceki_sarki": {
+        "action": "press",
+        "key": "prevtrack",
+        "trigger_phrase": "önceki şarkı",
+        "response": "Önceki şarkıya dönülüyor."
+    },
+    "bir_onceki_sarkiya_don": {
+        "action": "press",
+        "key": "prevtrack",
+        "trigger_phrase": "bir önceki şarkıya dön",
+        "response": "Bir önceki parçaya dönüyorum."
+    }
+}
