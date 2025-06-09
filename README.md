@@ -9,6 +9,7 @@ Kullanıcı, belirli bir aktivasyon kelimesi ile asistanı aktif edip komut vere
 - Türkçe dil desteği.
 
 Asistan, örneğin "Jarvis dosyaları aç" gibi komutlarla bilgisayar üzerinde işlemler gerçekleştirebilir.
+
 NOT: Jarvis aktivasyon kelimesidir. Değiştirmek isterseniz asistan_local.py dosyasındaki AKTİVASYON KELİMESİ'ni değiştirmeniz yeterli olucaktır.
 
 Gerekli kütüphaneler requirements.txt dosyasından ulaşabilirsiniz.
